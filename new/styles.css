@@ -1,0 +1,27 @@
+
+body {
+    color:black;
+    /* /* background-color:bisque; /* */
+    background-image:url(./images/index.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/* #paral {
+
+    border-style:dashed;
+    border-color:blanchedalmond;
+    color: blue;
+    background-color: aqua;
+    border-radius:20px;
+    border-top-style:dotted; 
+
+} */
+#para1 {
+    border-style: dashed;
+    border-color:purple;
+    color:black;
+    background-color:aqua;
+    border-radius:20px ;
+
+}
