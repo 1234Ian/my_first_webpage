@@ -1,25 +1,25 @@
 .sidebar{
     background-color:tan;
     color:white;
-    width: 300px;
+    width: 900px;
     height: 100%;
     position: fixed;
-    padding-top: 20px;
-    top:0;
-    bottom: 0;
+    padding-top: 50px;
+    top:20;
+    bottom: 20;
 }
 ul{
     list-style: none;
-    margin: 10px;
+    margin: 20px;
     padding:20px;
 }
 li{
-    padding: 15px 20px;
+    padding: 35px 40px;
     font-family: fantasy;
     font-size: 160;
 }
 a{
-    text-decoration: none;
+    text-decoration:none;
     color:black;
 }
 a:hover{
@@ -27,8 +27,8 @@ a:hover{
     color: white;
 }
 .rounded-image{
-    width: 200px;
-    height: 200px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     overflow-y: none;
 }

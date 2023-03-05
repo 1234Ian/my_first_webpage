@@ -4,13 +4,32 @@
     </titlle></title>
     <body>
         <div class="sidebar">
-   <img src="index.jpg"alt=""  class ="rounded-image">
-<nav>
+   <img src="index.jpg"> 
+      <nav>
 <ul> 
 
-<li><a href="#">Home</a></li>
+<li><a href="#">Home Country</a></li>
+<label for="Home country">Home Country</label>
+      <select id="home country" name="home country">
+        <option value=""> </option>
+        <option value="kenya">Kenya</option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
 <li><a href="#">Contact</a></li>
-<li><a href="#">More info</a></li>
+<label for="Contact">Contact</label>
+      <select id="contact"name="contact">
+        <option value=""> </option>
+        <option value="0768941460">0768941460</option>
+        <option value="0785978406">0785978406</option>
+      </select>
+</select><li><a href="#">More info</a></li>
+<label for="subject">Subject</label>
+<textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+<input type="submit" value="Submit">
 </ul>
 </nav>
 </div>
